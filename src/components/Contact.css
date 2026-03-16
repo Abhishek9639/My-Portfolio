@@ -1,0 +1,77 @@
+.contact-section {
+  position: relative;
+  padding-bottom: 120px;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 3rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.contact-heading {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.contact-description {
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  max-width: 500px;
+  margin: 0 auto 2.5rem;
+  line-height: 1.6;
+}
+
+.contact-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact-email-btn, .contact-phone-btn {
+  font-size: 1.05rem;
+  padding: 12px 28px;
+}
+
+.contact-resume {
+  margin-top: 1rem;
+  padding-top: 3rem;
+  border-top: 1px solid var(--border-color);
+  width: 100%;
+}
+
+.resume-heading {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+}
+
+.resume-download-btn {
+  font-size: 0.95rem;
+}
+
+/* Footer styles */
+.footer {
+  text-align: center;
+  padding: 2rem 0;
+  border-top: 1px solid var(--border-color);
+  background: var(--bg-primary);
+}
+
+.footer-text {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.footer-text span {
+  color: var(--text-primary);
+  font-weight: 600;
+}
